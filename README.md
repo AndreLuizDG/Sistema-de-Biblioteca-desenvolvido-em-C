@@ -43,9 +43,3 @@ Este projeto é uma aplicação console para gerenciamento de livrarias, impleme
 - Compilador C (GCC ou outro compatível)
 - Sistema operacional compatível com execução de arquivos binários em C
 - Familiaridade com manipulação de arquivos e programação em C
-
-## Como Executar
-
-1. **Clone o Repositório**:
-   ```bash
-   git clone https://github.com/seu-usuario/gerenciamento-livraria-c.git
