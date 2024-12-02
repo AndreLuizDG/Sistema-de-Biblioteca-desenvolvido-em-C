@@ -1,32 +1,34 @@
-# Sistema de Gerenciamento de Livraria em C
+<h1 align="center"> Sistema de Biblioteca em C </h1>
 
-Este projeto é uma aplicação console para gerenciamento de livrarias, implementada em linguagem C. Ele permite realizar operações de cadastro, consulta, edição e exclusão de dados relacionados a livros, clientes, autores e vendas. Também possui funcionalidades para emissão de relatórios e relacionamento entre autores e livros.
+## :memo: Descrição
+Este projeto consiste no desenvolvimento de um sistema para gerenciamento de uma biblioteca. O sistema possui funcionalidades para cadastro, listagem, consulta, edição e exclusão de registros de livros, clientes e autores, além de gerenciar vendas e relacionamentos entre autores e livros. Com estas funções, o sistema possibilita uma administração eficiente da biblioteca, promovendo um gerenciamento completo dos recursos.
 
-## Funcionalidades
-
+## :books: Funcionalidades
 - **Livros**
-  - Cadastro de novos livros
+  - Cadastro de livros
   - Listagem de todos os livros
-  - Consulta por código ou título do livro
-  - Alteração e exclusão de registros de livros
+  - Consulta de livro por código ou título
+  - Edição de informações do livro
+  - Exclusão de livro
 
 - **Clientes**
   - Cadastro de clientes
   - Listagem de todos os clientes
+  - Consulta de clientes por código
 
 - **Autores**
   - Cadastro de autores
   - Listagem de todos os autores
-
-- **Vendas**
-  - Efetuar vendas
-  - Relatórios de vendas e vendas detalhadas
   - Relacionamento de autores com livros
 
-- **Outras Funções**
-  - Relacionar autores a livros
-  - Listar relacionamentos autor-livro
-  - Consultar livros por autor
+- **Vendas**
+  - Cadastro de vendas
+  - Relatório de vendas detalhado
+  - Fechamento de pedidos
+
+## :wrench: Tecnologias Utilizadas
+- Linguagem de programação: C
+- Manipulação de arquivos para armazenamento dos dados (livros, clientes, autores, vendas)
 
 ## Estrutura do Projeto
 
@@ -38,8 +40,15 @@ Este projeto é uma aplicação console para gerenciamento de livrarias, impleme
   - `reg_autor`: Representa um autor
   - `reg_RelaAutorLivro`: Representa o relacionamento entre autores e livros
 
-## Pré-requisitos
+## 📷 Preview
 
-- Compilador C (GCC ou outro compatível)
-- Sistema operacional compatível com execução de arquivos binários em C
-- Familiaridade com manipulação de arquivos e programação em C
+## Menu Principal do Sistema
+<img src="MenuPrincipal.png" alt="Menu Principal" width="600px">
+
+## Cadastro de Novo Livro
+<img src="CadastroDeNovoLivro.png" alt="Cadastro De Novo Livro" width="600px">
+
+## 🧑‍🏫 Aprendizados
+Durante o desenvolvimento deste projeto, aprendi muito sobre manipulação de arquivos em C, incluindo leitura, escrita e busca de registros em arquivos binários. Aprimorei minhas habilidades em programação estruturada, criando um sistema que gerencia dados de maneira eficiente e prática. Cada funcionalidade, como cadastro, edição e consulta, exigiu a implementação de algoritmos para garantir a consistência e integridade dos dados, além de proporcionar uma boa experiência ao usuário.
+
+---
